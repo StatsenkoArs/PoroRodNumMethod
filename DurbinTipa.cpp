@@ -28,11 +28,11 @@ int main()
   std::vector<std::complex<double>> p_cap;
 
   std::fstream fs;
-  fs.open("C:/Users/arsen/source/repos/DurbinTipa/DurbinTipa/u_cap.txt", std::ios::in);
+  fs.open("u_cap.txt", std::ios::in);
   ReadCaps(fs, u_cap);
   fs.close();
 
-  fs.open("C:/Users/arsen/source/repos/DurbinTipa/DurbinTipa/p_cap.txt", std::ios::in);
+  fs.open("p_cap.txt", std::ios::in);
   ReadCaps(fs, p_cap);
   fs.close();
 
